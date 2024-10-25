@@ -1,10 +1,11 @@
 #Kirjuta programm, mis leiab kahest kasutaja poolt sisestatud arvust miinimumi 
 # (ära kasuta min funktsiooni). (muutuja - variable, tingimus - condition, if-lause - if statement)
-import math
+#alt shit arrowdown
+a = int(input("Sisesta arv: "))
+b = int(input("Sisesta teine arv: "))
 
-kasutaja1= float(input("Sisesta oma arv"))
-kasutaja2= float(input("Sisesta oma arv"))
+if a > b :
+    print(b, "on miinimum")
 
-if kasutaja1 input 
-
-miinimum=
+else :
+    print(a, "on miinimum")
